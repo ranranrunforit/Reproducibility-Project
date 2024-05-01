@@ -5,6 +5,7 @@ This repo is a reproduction study based on the original publication and repo of 
 The publication: *P. VelickoviÊ, G. Cucurull, A. Casanova, A. Romero, P. Lio, and Y. Bengio, “Graph attention networks,” arXiv preprint arXiv:1710.10903, 2017.*.  
 
 Link to the publication: [arXiv:1710.10903v3](https://doi.org/10.48550/arXiv.1710.10903)
+
 Link to the github repository: [https://github.com/PetarV-/GAT](https://github.com/PetarV-/GAT)
 
 The paper introduces Graph Attention Networks (GAT) as an innovative approach to processing graph-structured data using convolution-style neural networks with masked self-attentional layers. GAT enables nodes to assign varying weights to their neighbors without costly matrix operations or prior knowledge of the entire graph structure. By leveraging attention mechanisms efficiently within the graph attentional layer, GAT achieves computational efficiency and can parallelize operations across all nodes in the graph. This dynamic assignment of node importance based on relationships leads to improved information propagation and feature learning, resulting in state-of-the-art performance on node classification benchmarks. GAT offers a more effective and scalable solution for handling complex relationships in graph data.
