@@ -129,4 +129,4 @@ In the case of inductive learning, after 10 runs of training for 200 epochs, the
 ```
 
 
-![image info](./image.png)
+![arXiv](./image.png)
