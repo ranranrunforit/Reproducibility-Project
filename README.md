@@ -46,7 +46,8 @@ To significantly speed up training, it's important to utilize a GPU.
 
 If using Google Colab, please click `Runtime` and then `Change runtime type`. Then set the `hardware accelerator` to **GPU**.
 
-**It's recommended to run the codes for one model at a time to accurately evaluate each model's performance within the 8-minute time limit.**\
+**It's recommended to run the codes for one model at a time to accurately evaluate each model's performance within the 8-minute time limit.**
+
 **Note**: Make sure to **sequentially run all the cells in each section** so that the intermediate variables / packages will carry over to the next cell
 
 **Install Pytorch Geometric**
