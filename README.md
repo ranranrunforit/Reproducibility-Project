@@ -42,7 +42,7 @@ For inductive learning, a three-layer GAT model is applied. Both of the first tw
 
 # Device
 
-To significantly speed up training, it's important to utilize a GPU. 
+To significantly speed up training, it's recommended to utilize a GPU. 
 
 If using Google Colab, please click `Runtime` and then `Change runtime type`. Then set the `hardware accelerator` to **GPU**.
 
