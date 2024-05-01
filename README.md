@@ -40,11 +40,14 @@ The architectural hyperparameters have been optimized on the Cora dataset and th
 For inductive learning, a three-layer GAT model is applied. Both of the first two layers consist of K = 4 attention heads computing F = 256 features each, followed by an ELU nonlinearity, resulting in a total of 1024 features. The final layer is used for (multi-label) classification and consists of K = 6 attention heads computing 121 features each, which are averaged and followed by a logistic sigmoid activation. In this case, the training sets are sufficiently large, and there is no need to apply L2 regularization or dropout. However, skip connections across the intermediate attentional layer have been successfully employed. A batch size of 2 graphs is utilized during training for this task.
 
 
-# Usage
+# Device
 
 To significantly speed up training, it's important to utilize a GPU. 
 
 If using Google Colab, please click `Runtime` and then `Change runtime type`. Then set the `hardware accelerator` to **GPU**.
+
+
+# Usage
 
 **It's recommended to run the codes for one model at a time to accurately evaluate each model's performance within the 8-minute time limit.**
 
