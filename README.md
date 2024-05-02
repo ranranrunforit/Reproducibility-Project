@@ -120,11 +120,11 @@ More detailed example of training and evaluating model can be found in `DL4H_Tea
 
 The model performance is shown in the below table.
 
-|  Info \ Dataset |         Cora        |       Citeseer      |       PPI       |
-| --------------- | ------------------- | ------------------- | --------------- |
-|       Task      |     Transductive    |     Transductive    |    Inductive    |
-|       GCN       |   0.8037 ± 0.0109   |   0.7005 ± 0.0030   |       N/A       |
-|       GAT       | **0.8285 ± 0.0037** | **0.7293 ± 0.0057** | 0.9751 ± 0.0016 |
+|  Info \ Dataset |         Cora        |       Citeseer      |        PPI        |
+| --------------- | ------------------- | ------------------- | ----------------- |
+|       Task      |     Transductive    |     Transductive    |     Inductive     |
+|       GCN       |   0.8037 ± 0.0109   |   0.7005 ± 0.0030   |        N/A        |
+|       GAT       | **0.8285 ± 0.0037** | **0.7293 ± 0.0057** |**0.9751 ± 0.0016**|
 
 
 In transductive learning, the GAT model was trained for 200 epochs over 10 runs using default hyperparameters on randomly split train/val/test data. The model achieved approximately 82.85% ± 0.57% accuracy on the test split of the Cora Dataset and 72.93% ± 0.37% accuracy on the test split of the Citeseer Dataset. These results are comparable to the performance reported in the original paper, supporting hypotheses 1 and 2. The variability in results can be attributed to the randomness of the train/val/test split.
