@@ -125,7 +125,7 @@ The model performance is shown in the below table.
 |       GAT       |  **0.8285**  |  **0.7293**  |   0.9751   |
 
 
-In transductive learning, the GAT model was trained for 200 epochs over 10 runs using default hyperparameters on randomly split train/val/test data. The model achieved approximately 82.60% classification accuracy on the test split of the Cora Dataset and 71.53% classification accuracy on the test split of the Citeseer Dataset. These results are comparable to the performance reported in the original paper. The variability in results can be attributed to the randomness of the train/val/test split.
+In transductive learning, the GAT model was trained for 200 epochs over 10 runs using default hyperparameters on randomly split train/val/test data. The model achieved approximately 82.85% classification accuracy on the test split of the Cora Dataset and 72.93% classification accuracy on the test split of the Citeseer Dataset. These results are comparable to the performance reported in the original paper. The variability in results can be attributed to the randomness of the train/val/test split.
 
 In the case of inductive learning, after 10 runs of training for 200 epochs, the GAT model achieved an average of 97.51% +/- 0.16% classification micro F1 score on the test split.
 
