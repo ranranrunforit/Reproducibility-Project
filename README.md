@@ -124,7 +124,7 @@ The model performance is shown in the below table.
 | --------------- | ------------------- | ------------------- | ---------- |
 |       Task      |     Transductive    |     Transductive    |  Inductive |
 
-|     Dataset     |         Cora       ||       Citeseer     ||    PPI    ||
+|     Dataset     |         Cora       ||       Citeseer     ||          PPI       ||
 |  Model \ Stats  |    mean    |  std   |    mean    |  std   |    mean    |  std   |
 |:---------------:|:----------:|:------:|:----------:|:------:|:----------:|:------:|
 |       GCN       |   0.8037   | 0.0109 |   0.7005   | 0.0030 |     N/A    |  N/A   |
