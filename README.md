@@ -63,56 +63,6 @@ https://pytorch-geometric.readthedocs.io/en/latest/
 
 **Note**: Make sure to **sequentially run all the cells in each section** so that the intermediate variables / packages will carry over to the next cell
 
-
-Training and evaluating the GAT model on the Cora dataset can be done through running the the `main.py` script as follows:
-
-
-1. Clone the repository:
-
-```
-git clone https://github.com/ebrahimpichka/GAT-pt.git
-cd GAT-pt/
-```
-
-2. Install the required dependencies:
-
-```
-pip install -r requirements.txt
-```
-
-3. Train the GAT model by running the the `train.py` script as follows:: (Example using the default parameters)
-
-```bash
-python train.py --epochs 300 --lr 0.005 --l2 5e-4 --dropout-p 0.6 --num-heads 8 --hidden-dim 64 --val-every 20
-```
-
-In more detail, the `main.py` script recieves following arguments:
-```
-usage: train.py [-h] [--epochs EPOCHS] [--lr LR] [--l2 L2] [--dropout-p DROPOUT_P] [--hidden-dim HIDDEN_DIM] [--num-heads NUM_HEADS] [--concat-heads] [--val-every VAL_EVERY]
-               [--no-cuda] [--no-mps] [--dry-run] [--seed S]
-
-PyTorch Graph Attention Network
-
-options:
-  -h, --help            show this help message and exit
-  --epochs EPOCHS       number of epochs to train (default: 300)
-  --lr LR               learning rate (default: 0.005)
-  --l2 L2               weight decay (default: 6e-4)
-  --dropout-p DROPOUT_P
-                        dropout probability (default: 0.6)
-  --hidden-dim HIDDEN_DIM
-                        dimension of the hidden representation (default: 64)
-  --num-heads NUM_HEADS
-                        number of the attention heads (default: 4)
-  --concat-heads        wether to concatinate attention heads, or average over them (default: False)
-  --val-every VAL_EVERY
-                        epochs to wait for print training and validation evaluation (default: 20)
-  --no-cuda             disables CUDA training
-  --no-mps              disables macOS GPU training
-  --dry-run             quickly check a single pass
-  --seed S              random seed (default: 13)
-```
-
 More detailed example of training and evaluating model can be found in `DL4H_Team_33_cz78.ipynb` script .
 
 
